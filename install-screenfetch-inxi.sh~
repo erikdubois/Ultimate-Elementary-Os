@@ -1,7 +1,0 @@
-sudo add-apt-repository ppa:djcj/screenfetch
-sudo add-apt-repository ppa:dawidd0811/neofetch
-
-sudo apt-get update 
-
-sudo apt-get install screenfetch neofetch
-sudo apt-get install inxi
