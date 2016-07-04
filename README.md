@@ -2,12 +2,35 @@
 
 We start our journey with a clean install.
 
+![Screenshots](http://i.imgur.com/qAcu3ci.jpg)
+
+![Screenshots](http://i.imgur.com/zoDIK0o.jpg)
+
+
 Take a look at the various scripts and run the ones you like. Change content if need be.
 
 
 Some icons we like ...
 
 Using Sardi icons from  http://sourceforge.net/projects/sardi/
+
+![Screenshots](http://i.imgur.com/TL2Gw1g.jpg)
+
+
+![Screenshots](http://i.imgur.com/9KhFqfy.jpg)
+
+
+![Screenshots](http://i.imgur.com/TBvGdIb.jpg)
+
+
+![Screenshots](http://i.imgur.com/TL2Gw1g.jpg)
+
+
+![Screenshots](http://i.imgur.com/pe9rsVl.jpg)
+
+
+![Screenshots](http://i.imgur.com/y7U8uKj.jpg)
+
 
 or 
 
@@ -17,10 +40,12 @@ or
 
 using Super Ultra Flat Numix Remix icons from https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
 
+![Screenshots](http://i.imgur.com/vaqkBXS.jpg)
+
 
 Your result can be
 
-![Screenshots](http://i.imgur.com/s4uuBVS.jpg)
+![Screenshots](http://i.imgur.com/fMDZVMs.jpg)
 
 #1 Kernel and nvidia
 
@@ -77,7 +102,7 @@ Some examples of the kernel test.
 
 # kernel 4.6
 
-![Screenshots](http://i.imgur.com/I7YyucM.jpg)
+![Screenshots](http://i.imgur.com/tWshhNS.png)
 
 
 
@@ -135,7 +160,7 @@ Start up conky-manager and choose the conky to your liking.
 You should arrive at something similar depending on theme and icons choices: 
 
 
-![Screenshots](http://i.imgur.com/pgbXtOr.jpg)
+![Screenshots](http://i.imgur.com/7Dg90aq.jpg)
 
 
 
@@ -150,6 +175,8 @@ http://erikdubois.be/
 
 Conky has changed its configuration to lua syntax.
 This will my place to collect them all.
+
+In beginning July 2016 the conky version in the repositories do not support lua syntax configuration files... Not tested.
 
 https://github.com/erikdubois/Aureola
 
@@ -185,11 +212,11 @@ Each time you start an other terminal you will get a different theme. It will su
 Plank
 ------------------
 
-Plank is NOT implemented here since we have the launcher.
+Plank is NOT implemented here since plank is part of the system.
 
 Not sure but I believe Plank was already installed in Ubuntu Mate.
 
-Start plank from the menu. Right-click the plank and choose preferences and put in on top. I choose a transparent theme.
+Start plank from the menu. CTRL + Right-click the plank and choose preferences and put in on top. I choose a transparent theme.
 But there are more themes out there if you want.
 If you want to autostart this everytime.
 Type in the menu " startup". Start startup applications.
@@ -223,41 +250,15 @@ https://github.com/erikdubois/themes-icons-pack
 
 
 
-
-# Samba or sharing folder over the network
-
-And a specific script for samba (sharing of maps on your home network) if you need it. This script is NOT necessary. Linux Mint shares folders just fine. If you need a program to have an oversight of all the shared maps. This is the one. 
-
-	sudo apt-get install system-config-samba
-
-	or
-
-	- ./install-samba-vx.sh
-
-
-# Shutter
-
-Shutter is a program to make screenshots to post on websites.
-There is also a very handy export function to different image hosting sites like imgur.com
-
-In the program keyboard you can add a custom shortcut to take a picture like 
-
-printscreen or prtsc no many laptops
-This should be the code to take a picture that will be named like this : 
-
-screenshot_25_01_2016_18:32:46.jpg
-
-
-	shutter -f -e -o '~/Pictures/screenshot_%d_%m_%Y_%T.jpg'
-
-
-
 # Gnome tweak and compiz configuration
 
 
 These two programs will assist you in pimping your working environment the way you want.
 
 Be careful though with the compiz configuration manager.
+
+
+
 
 
 #What can you do if the script does not execute?

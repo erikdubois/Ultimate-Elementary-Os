@@ -27,7 +27,6 @@
 #
 ############################################################################
 
-
 #echo "# Ultimate-Elementary-OS" >> README.md
 #git init
 #git add README.md
