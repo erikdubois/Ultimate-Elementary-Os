@@ -230,25 +230,6 @@ http://erikdubois.be/install-plank-linux-mint-17-3-set-preferences-add-themes-au
 
 
 
-Themes and Icons
------------------
-
-The most fun goes in changing the look of your system. Any system for that matter.
-
-I have gathered a lot of themes, icons and cursors I like and bundled them here.
-
-https://github.com/erikdubois/themes-icons-pack
-
-
-![Screenshots](http://i.imgur.com/9drRjAL.jpg)
-
-
-
-![Screenshots](http://i.imgur.com/FacEzmD.jpg)
-
-
-
-
 # Gnome tweak and compiz configuration
 
 
