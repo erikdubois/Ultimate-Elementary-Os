@@ -180,6 +180,7 @@ In beginning July 2016 the conky version in the repositories do not support lua 
 
 https://github.com/erikdubois/Aureola
 
+Picture on Ubuntu 16.04 instead.
 
 ![Screenshots](http://i.imgur.com/vwIB1hs.jpg)
 
@@ -213,8 +214,6 @@ Plank
 ------------------
 
 Plank is NOT implemented here since plank is part of the system.
-
-Not sure but I believe Plank was already installed in Ubuntu Mate.
 
 Start plank from the menu. CTRL + Right-click the plank and choose preferences and put in on top. I choose a transparent theme.
 But there are more themes out there if you want.
@@ -255,7 +254,7 @@ https://github.com/erikdubois/themes-icons-pack
 
 These two programs will assist you in pimping your working environment the way you want.
 
-Be careful though with the compiz configuration manager.
+Be careful with the compiz configuration manager.
 
 
 
