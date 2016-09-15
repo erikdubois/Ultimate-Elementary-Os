@@ -55,33 +55,28 @@
 #
 ############################################################################
 
+###############################################################################################
+
+
 # repo for grub-customizer
-sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
-# repo for variety wallpaper
-sudo add-apt-repository ppa:peterlevi/ppa -y
+# sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
+
 # repo for numix themes
-sudo add-apt-repository ppa:numix/ppa -y
+#sudo add-apt-repository ppa:numix/ppa -y
+
+# repo for boot-repair
+# sudo add-apt-repository -y ppa:yannubuntu/boot-repair
 
 
-############################################################################
+###############################################################################################
 
 # after all these new repo's - getting new info
-sudo apt-get -y update
+#sudo apt-get -y update
 
 ############################################################################
 
-# donwloading and installing google chrome for netflix e.g.
-echo "downloading google chrome latest stable edition"
 
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt-get install -y libcurl3
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-rm google-chrome-stable_current_amd64.deb
-sudo apt-get install -f -y
-
-############################################################################
-
-# repo for spotify
+# Spotify
 # https://www.spotify.com/be-nl/download/linux/
 
 # 1. Add the Spotify repository signing key to be able to verify downloaded packages
@@ -94,7 +89,22 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 sudo apt-get update
 
 # 4. Install Spotify
-sudo apt-get install spotify-client
+sudo apt-get install spotify-client -y
+
+
+############################################################################
+
+
+# donwloading and installing google chrome for netflix e.g.
+echo "downloading google chrome latest stable edition"
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt-get install -y libcurl3
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+rm google-chrome-stable_current_amd64.deb
+sudo apt-get install -f -y
+
+
 
 ##############################################################################################
 
@@ -104,12 +114,19 @@ sudo dpkg -i sublime-text_build-3114_amd64.deb
 rm sublime-text_build-3114_amd64.deb
 
 
-##############################################################################################
+###############################################################################################
+
+# Downloading and installing latest variety
+sudo add-apt-repository ppa:peterlevi/ppa
+sudo apt-get update
+sudo apt-get install variety -y
+
+###############################################################################################
 
 
 #software from 'normal' repositories
 echo "software from 'normal' repositories"
-sudo apt-get install -y catfish clementine curl focuswriter frei0r-plugins geary gimp git gpick glances gparted
+sudo apt-get install -y adobe-flashplugin catfish clementine curl evolution focuswriter frei0r-plugins geary gimp git gpick glances gparted
 sudo apt-get install -y hardinfo inkscape inxi kazam openshot p7zip-full ppa-purge screenruler scrot shutter slurm
 sudo apt-get install -y thunar vnstat winbind screenfetch
 sudo apt-get install -y browser-plugin-vlc vlc
@@ -125,12 +142,13 @@ sudo apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar
 ############################################################################
 
 #software from extra repositories
-echo "software from extra repositories"
-sudo apt-get install -y grub-customizer variety   
+#echo "software from extra repositories"
+#sudo apt-get install -y grub-customizer 
 
 #themes
-echo "themes and icons"
-sudo apt-get install  -y numix-gtk-theme numix-icon-theme-circle  
+#echo "themes and icons"
+#sudo apt-get install  -y numix-gtk-theme numix-icon-theme-circle
+sudo apt-get install -y breeze-cursor-theme  
 
 ############################################################################
 
