@@ -126,10 +126,10 @@ sudo apt-get install variety -y
 
 #software from 'normal' repositories
 echo "software from 'normal' repositories"
-sudo apt-get install -y adobe-flashplugin catfish clementine curl evolution focuswriter frei0r-plugins geary gimp git gpick glances gparted
+sudo apt-get install -y catfish clementine curl evolution focuswriter frei0r-plugins geary gimp git gpick glances gparted
 sudo apt-get install -y hardinfo inkscape inxi kazam openshot p7zip-full ppa-purge screenruler scrot shutter slurm
 sudo apt-get install -y thunar vnstat winbind screenfetch
-sudo apt-get install -y browser-plugin-vlc vlc
+sudo apt-get install -y browser-plugin-vlc vlc 
 #sudo apt-get install -y plank
 
 
@@ -154,8 +154,10 @@ sudo apt-get install -y breeze-cursor-theme
 
 #software operating system specific
 
-sudo apt install -y gnome-tweak-tool compizconfig-settings-manager  
+sudo apt install -y gnome-tweak-tool 
+#sudo apt install -y compizconfig-settings-manager  
 
+sudo apt install -y xfce4-taskmanager
 
 
 ############################################################################
