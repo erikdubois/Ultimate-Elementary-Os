@@ -25,7 +25,7 @@
 #                               
 #
 #
-#################################################################################################################
+##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
@@ -53,16 +53,6 @@
 # Check out the github - many more scripts for automatic installation of Linux Systems.
 #
 #
-#
-#
-#
-##################################################################################################################
-# If the option -y has been added. It will autoinstall all. Omit if you do not want that.
-##################################################################################################################
-#
-#
-#
-#
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
@@ -70,62 +60,53 @@
 ##################################################################################################################
 
 
-#  H I G H L Y    E X P E R I M E N T A L
-
-#  Better to read and do a step by step upgrade 
-
-#  http://erikdubois.be/linux/the-ultimate-linux-mint-update
-
-#  if you want to experiment on a computer where there is no data loss risk
-
-#  please be my guest
-
-echo "Let us check if your computer is up-to-date"
+########################################
+########        C O N K Y      #########
+########################################
 
 
-#sudo apt-get update -y
-#sudo apt-get upgrade -y
-#sudo apt-get autoclean -y
-#sudo apt-get autoremove -y
 
-#Grub customizer if you dual boot
-#sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
-#sudo apt-get -y update
-#sudo apt-get install -y grub-customizer
+# if there is already a folder in tmp, delete or else do nothing
+[ -d /tmp/aureola ] && rm -rf "/tmp/aureola" || echo ""
+# download the github in folder /tmp/aureola
+
+echo "################################################################"
+echo "Checking if git is installed"
+echo "Install git for an easy installation"
 
 
-# latest kernel check the following url
-# http://kernel.ubuntu.com/~kernel-ppa/mainline/
-# at the moment you can have kernel 4.4.0
-# depending of you hardware you can install it as wel
-# keep in mind that nvidia or ati drivers sometimes clash with the kernel
-# read the latest article on these matters at http://erikdubois.be
- 
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-headers-4.6.3-040603-generic_4.6.3-040603.201606241434_amd64.deb
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-headers-4.6.3-040603_4.6.3-040603.201606241434_all.deb
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-image-4.6.3-040603-generic_4.6.3-040603.201606241434_amd64.deb
+	# G I T
 
-sudo dpkg -i linux*
+	# check if git is installed
+	if which git > /dev/null; then
+		echo "git was installed. Proceding..."
 
-rm linux-*
+		else
 
-echo "Kernel is installed"
-echo "Download files have been deleted"
+		echo "################################################################"
+		echo "installing git for this script to work"
+		echo "################################################################"
 
-#ending
-#mkdir $HOME/Upload
-#sudo apt-get -y update
-#sudo apt-get -f -y install
-#sudo apt-get -y upgrade
-
-#sudo apt-get -y autoremove
-#sudo apt-get -y autoclean
+	  	sudo apt-get install git -y
+		  	
+	fi
 
 
 
 
+echo "################################################################"
+echo "Downloading the files from github to tmp directory"
 
 
+git clone https://github.com/erikdubois/Aureola /tmp/aureola
 
+sh /tmp/aureola/get-aureola-from-github-to-local-drive.sh
 
+cd ~/.aureola/lazuli	
+sh ~/.aureola/lazuli/install-conky.sh
 
+rm -rf "/tmp/aureola"
+
+echo "################################################################"
+echo "end installing aureola"
+echo "################################################################"
