@@ -252,7 +252,10 @@ Be careful with the compiz configuration manager.
 # (Pantheon-)Terminal font increase
 
 CTRL + SHIFT + +  or - to decrease
+
 dconf-editor can be used to edit the rest like font
+
+	org.pantheon.terminal.settings
 
 
 
