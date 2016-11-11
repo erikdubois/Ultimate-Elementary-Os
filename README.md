@@ -7,6 +7,8 @@ We start our journey with a clean install.
 ![Screenshots](http://i.imgur.com/zoDIK0o.jpg)
 
 
+# Most recent visit
+
 Take a look at the various scripts and run the ones you like. Change content if need be.
 
 
@@ -19,6 +21,9 @@ Using Sardi icons from  http://sourceforge.net/projects/sardi/
 
 
 ![Screenshots](http://i.imgur.com/dfOqnR4.jpg)
+
+
+#Previous visits
 
 
 ![Screenshots](http://i.imgur.com/TL2Gw1g.jpg)
@@ -41,13 +46,18 @@ Using Sardi icons from  http://sourceforge.net/projects/sardi/
 
 ![Screenshots](http://i.imgur.com/fMDZVMs.jpg)
 
-#1 Kernel and nvidia
+
+
+
+#1 Kernel
 
 As described at http://erikdubois.be/ I try to get the latest of everything but on a testpc first mind you! This attitude tends to break things. You have been warned. But the best way to learn about linux.
 
-The first time I suggest you follow the steps in the article.
+I have written scripts to automate my installations. 
 
-I have written a script to automate my installations. 
+This github for Linux Mint will have always to most recents scripts.
+
+https://github.com/erikdubois/Ultimate-Linux-Mint-18-Cinnamon
 
 You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to Extract here.
 
