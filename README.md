@@ -14,6 +14,7 @@ Some icons we like ...
 
 Using Sardi icons from  http://sourceforge.net/projects/sardi/
 
+
 ![Screenshots](http://i.imgur.com/8VTRDzZ.jpg)
 
 
@@ -244,6 +245,9 @@ These two programs will assist you in pimping your working environment the way y
 Be careful with the compiz configuration manager.
 
 
+# To add other repositories
+
+	sudo apt install software-properties-common
 
 
 
