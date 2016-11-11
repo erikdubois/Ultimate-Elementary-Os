@@ -21,6 +21,12 @@
 #
 #
 ##################################################################################################################
+#
+# Current project : Ultimate-Linux-Mint-18
+#
+# Source 	: 	https://github.com/erikdubois/Ultimate-Linux-Mint-18
+#
+##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
@@ -48,6 +54,16 @@
 # Check out the github - many more scripts for automatic installation of Linux Systems.
 #
 #
+#
+#
+#
+##################################################################################################################
+# If the option -y has been added. It will autoinstall all. Omit if you do not want that.
+##################################################################################################################
+#
+#
+#
+#
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
@@ -65,8 +81,7 @@
 
 #  please be my guest
 
-echo "Let us install the latest kernel"
-echo "Be sure to backup or use it on an clean installation"
+echo "Let us check if your computer is up-to-date"
 
 
 #sudo apt-get update -y
@@ -87,9 +102,9 @@ echo "Be sure to backup or use it on an clean installation"
 # keep in mind that nvidia or ati drivers sometimes clash with the kernel
 # read the latest article on these matters at http://erikdubois.be
  
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.7.3/linux-headers-4.7.3-040703-generic_4.7.3-040703.201609070334_amd64.deb
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.7.3/linux-headers-4.7.3-040703_4.7.3-040703.201609070334_all.deb
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.7.3/linux-image-4.7.3-040703-generic_4.7.3-040703.201609070334_amd64.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8.6/linux-headers-4.8.6-040806-generic_4.8.6-040806.201610310831_amd64.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8.6/linux-headers-4.8.6-040806_4.8.6-040806.201610310831_all.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8.6/linux-image-4.8.6-040806-generic_4.8.6-040806.201610310831_amd64.deb
 
 sudo dpkg -i linux*
 
