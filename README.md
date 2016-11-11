@@ -50,7 +50,7 @@ Using Sardi icons from  http://sourceforge.net/projects/sardi/
 
 
 #Kernel
-------------------------
+
 
 
 As described at http://erikdubois.be/ I try to get the latest of everything but on a testpc first mind you! This attitude tends to break things. You have been warned. But the best way to learn about linux.
@@ -72,7 +72,7 @@ Do not forget to type "./" in front of the name.
 
 
 #Software installation
-------------------------
+
 
 
 We start the installation script of all the needed software in the same way as above.
@@ -97,7 +97,7 @@ Or you choose to install the ones you want one by one.
 
 
 #Aureola Conky
-------------------------
+
 
 Conky has changed its configuration to lua syntax.
 This will my place to collect them all.
@@ -112,7 +112,7 @@ https://github.com/erikdubois/Aureola
 
 
 #Plank
-------------------
+
 
 Plank is NOT implemented here since plank is part of the system.
 
@@ -132,7 +132,7 @@ http://erikdubois.be/install-plank-linux-mint-17-3-set-preferences-add-themes-au
 
 
 # Gnome tweak tool
----------------------------------------
+
 
 I use this program to change icons, themes and cursor.
 
@@ -140,7 +140,7 @@ I use this program to change icons, themes and cursor.
 
 
 # To add other repositories
----------------------------------------
+
 
 	sudo apt install software-properties-common
 
@@ -148,7 +148,7 @@ I use this program to change icons, themes and cursor.
 
 
 # (Pantheon-)Terminal font increase
----------------------------------------
+
 
 CTRL + SHIFT + +  or - to decrease
 
@@ -159,7 +159,7 @@ dconf-editor can be used to edit the rest like font
 
 
 #What can you do if the script does not execute?
----------------------------------------------------
+
 
 Since I sometimes forget to make the script executable, I include here what you can do to solve that.
 
