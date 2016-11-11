@@ -106,9 +106,8 @@ In beginning July 2016 the conky version in the repositories do not support lua 
 
 https://github.com/erikdubois/Aureola
 
-Picture on Ubuntu 16.04 instead.
 
-![Screenshots](http://i.imgur.com/vwIB1hs.jpg)
+![Screenshots](http://i.imgur.com/8VTRDzZ.jpg)
 
 
 
