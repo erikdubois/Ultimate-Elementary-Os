@@ -109,14 +109,20 @@ sudo apt-get install -f -y
 ##############################################################################################
 
 # Downloading and installing latest sublime text 3
-wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb
-sudo dpkg -i sublime-text_build-3114_amd64.deb
-rm sublime-text_build-3114_amd64.deb
+rm /tmp/sublime-text_build-3126_amd64.deb
+
+wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb -O /tmp/sublime-text_build-3126_amd64.deb
+sudo dpkg -i /tmp/sublime-text_build-3126_amd64.deb
+
+rm /tmp/sublime-text_build-3126_amd64.deb
 
 
 ###############################################################################################
 
 # Downloading and installing latest variety
+# to be able to add repositories
+sudo apt install software-properties-common -y
+
 sudo add-apt-repository ppa:peterlevi/ppa
 sudo apt-get update
 sudo apt-get install variety -y
