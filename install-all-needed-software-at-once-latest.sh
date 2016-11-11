@@ -132,7 +132,7 @@ sudo apt-get install variety -y
 
 #software from 'normal' repositories
 echo "software from 'normal' repositories"
-sudo apt-get install -y catfish clementine curl evolution focuswriter frei0r-plugins
+sudo apt-get install -y catfish clementine curl dconf-cli dconf-editor evolution focuswriter frei0r-plugins
 sudo apt-get install -y geary gimp git 
 sudo apt-get install -y gpick glances gparted
 sudo apt-get install -y hardinfo inkscape inxi kazam openshot p7zip-full ppa-purge radiotray 

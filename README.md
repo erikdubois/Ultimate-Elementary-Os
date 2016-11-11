@@ -249,6 +249,11 @@ Be careful with the compiz configuration manager.
 
 	sudo apt install software-properties-common
 
+# (Pantheon-)Terminal font increase
+
+CTRL + SHIFT + +  or - to decrease
+dconf-editor can be used to edit the rest like font
+
 
 
 #What can you do if the script does not execute?
