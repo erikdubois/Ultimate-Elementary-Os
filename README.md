@@ -73,8 +73,6 @@ Do not forget to type "./" in front of the name.
 
 #Software installation
 
-
-
 We start the installation script of all the needed software in the same way as above.
 
 	- ./install-all-needed-software-at-once-vx.sh
@@ -104,7 +102,9 @@ This will my place to collect them all.
 
 In beginning July 2016 the conky version in the repositories do not support lua syntax configuration files... Not tested.
 
-https://github.com/erikdubois/Aureola
+More info can be found here : http://erikdubois.be/category/linux/aureola/
+
+The conky collection can be found here : https://github.com/erikdubois/Aureola
 
 
 ![Screenshots](http://i.imgur.com/8VTRDzZ.jpg)
@@ -124,11 +124,10 @@ Add application and choose plank or do it the old way and point to /usr/bin/plan
 
 ![Screenshots](http://i.imgur.com/arie1IY.jpg)
 
-A tutorial has been written here : 
-
-http://erikdubois.be/install-plank-linux-mint-17-3-set-preferences-add-themes-autostart/
+More articles on Plank can be found here : http://erikdubois.be/category/linux/plank/
 
 
+You can download over 100 themes for plank.
 
 
 # Gnome tweak tool
@@ -139,11 +138,19 @@ I use this program to change icons, themes and cursor.
 
 
 
-# To add other repositories
+# To be able to add other repositories
+
+e.g. simplescreenrecorder
 
 
 	sudo apt install software-properties-common
 
+
+# To be able to install deb files
+
+e.g. dropbox
+
+	sudo apt install gdebi
 
 
 
@@ -156,6 +163,7 @@ dconf-editor can be used to edit the rest like font
 
 	org.pantheon.terminal.settings
 
+See script you can run.
 
 
 #What can you do if the script does not execute?
