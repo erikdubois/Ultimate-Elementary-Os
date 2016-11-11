@@ -55,10 +55,8 @@
 ##################################################################################################################
 
 sudo apt-get install dconf-cli -y
-dconf dump /org/cinnamon/desktop/keybindings/ > all-cinnamon-desktop-keybindings.dconf
-#dconf dump /org/nemo/ > nemo.dconf
-#dconf dump /org/gtk/ > gtk.dconf
-#dconf dump /org/gnome/ > gnome.dconf
+dconf dump /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/ > all-desktop-keybindings.dconf
+
 
 echo "all done"
 

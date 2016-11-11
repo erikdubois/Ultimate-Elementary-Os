@@ -1,0 +1,24 @@
+[custom2]
+binding='<Alt>f'
+command='variety -f'
+name='variety -f'
+
+[custom1]
+binding='<Alt>t'
+command='variety -t'
+name='variety -t'
+
+[custom4]
+binding='<Alt>p'
+command='variety -p'
+name='variety -p'
+
+[custom0]
+binding='<Primary><Alt>t'
+command='pantheon-terminal'
+name='pantheon-terminal'
+
+[custom3]
+binding='<Alt>n'
+command='variety -n'
+name='variety -n'

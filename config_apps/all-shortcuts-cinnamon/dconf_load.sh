@@ -56,10 +56,7 @@
 
 sudo apt-get install dconf-cli -y
 
-dconf load /org/cinnamon/desktop/keybindings/  <  all-cinnamon-desktop-keybindings.dconf
-#dconf load /org/nemo/ < nemo.dconf
-#dconf load /org/gtk/ < gtk.dconf
-#dconf load /org/gnome/ < gnome.dconf
+dconf load /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/ < all-desktop-keybindings.dconf
 
 echo "all done"
 
