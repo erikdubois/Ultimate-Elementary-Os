@@ -57,7 +57,7 @@ As described at http://erikdubois.be/ I try to get the latest of everything but 
 
 I have written scripts to automate my installations. 
 
-This github for Linux Mint will always have the most recents scripts.
+This github for Linux Mint will always have the most recent scripts.
 
 https://github.com/erikdubois/Ultimate-Linux-Mint-18-Cinnamon
 
