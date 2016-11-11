@@ -39,19 +39,6 @@ Using Sardi icons from  http://sourceforge.net/projects/sardi/
 ![Screenshots](http://i.imgur.com/y7U8uKj.jpg)
 
 
-or 
-
-using yltra flat icons from https://github.com/erikdubois/yltra-flat-icon-theme
-
-or 
-
-using Super Ultra Flat Numix Remix icons from https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
-
-![Screenshots](http://i.imgur.com/vaqkBXS.jpg)
-
-
-Your result can be
-
 ![Screenshots](http://i.imgur.com/fMDZVMs.jpg)
 
 #1 Kernel and nvidia

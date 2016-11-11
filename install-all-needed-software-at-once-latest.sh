@@ -135,9 +135,9 @@ echo "software from 'normal' repositories"
 sudo apt-get install -y catfish clementine curl dconf-cli dconf-editor evolution focuswriter frei0r-plugins
 sudo apt-get install -y geary gimp git 
 sudo apt-get install -y gpick glances gparted
-sudo apt-get install -y hardinfo inkscape inxi kazam openshot p7zip-full ppa-purge radiotray 
-sudo apt-get install -y screenruler scrot shutter slurm
-sudo apt-get install -y thunar vnstat winbind screenfetch
+sudo apt-get install -y hardinfo inkscape inxi kazam openshot p7zip-full ppa-purge radiotray redshift
+sudo apt-get install -y screenruler scrot shutter slurm synapse
+sudo apt-get install -y thunar transmission transmission-cli vnstat winbind screenfetch
 sudo apt-get install -y browser-plugin-vlc vlc 
 #sudo apt-get install -y plank
 
@@ -163,7 +163,7 @@ sudo apt-get install -y breeze-cursor-theme
 
 #software operating system specific
 
-sudo apt install -y gnome-tweak-tool 
+sudo apt install -y gnome-tweak-tool gdebi
 #sudo apt install -y compizconfig-settings-manager  
 
 sudo apt install -y xfce4-taskmanager
