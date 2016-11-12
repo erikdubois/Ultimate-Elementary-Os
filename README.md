@@ -166,6 +166,14 @@ dconf-editor can be used to edit the rest like font
 See script you can run.
 
 
+# Remember
+
+SUPER + Spacebar = go to menu applications
+
+SUPER + H = minimize 
+
+
+
 #What can you do if the script does not execute?
 
 
